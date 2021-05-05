@@ -1,0 +1,106 @@
+
+REQUIREMENT:
+R_01 (functionality)
+Here is the requirement of My Fitness Amigo Application which allows the user to count calories, search for daily exercises and recipes and also a medical checkup feature. TS_01 (valid), TS_02 (invalid), TS_03(alternate) 
+R_02 (fields or features) Fields: TS_04
+-----------------------------------------------------------------------------------------------------------------------------
+* Login Page
+->	Username -  Text Field 
+->	Password-    Text Field
+->	Login- Button: This button would take you to the home page.
+->	Sign up- Button: This Button would take you to a Sign Up page.
+-----------------------------------------------------------------------------------------------------------------------------
+* Sign Up Page
+->	Username-  Text Field (maximum 30 character)
+->	Password-    Text Field (maximum 30 character)
+->	Repeat Password -    Text Field (maximum 30 character)
+->	Remember me -Check Box
+->	Cancel – Button: This button would take you back to login page
+->	Sign Up- Button: This button would take you to the home page.
+-----------------------------------------------------------------------------------------------------------------------------
+* Home Page
+->	Info Page - Button: Takes you to Info Page.
+->	Diary – Button: Takes you to Diary Page
+->	Exercise – Button: Takes you to Exercise Page
+->	Medical Checkup –  Button: Takes you to Medical Checkup Page
+->	Recipes-  Button: Takes you to Recipes Page
+->	About us -  Button: Takes you to About us Page
+->	Logout - Button: Takes you to Logout Page
+-----------------------------------------------------------------------------------------------------------------------------
+* Info Page
+->	Name – Text Field
+->	Phone No. – Text field
+->	Age – Text field
+->	Height – Text field
+->	Weight – Text field
+->	Gender – Radio Button (Male, Female or Others)
+->	What goal you want to pursue? -  Check box (Maintain Weight, Gain Weigh, Lose Weight)
+->	What is your current level of activity? –  Check box (Sedentary, Lightly Active, Moderately Active, Active,                     Very Active)
+->	Submit – Button: Take you to the Diary Page
+-----------------------------------------------------------------------------------------------------------------------------
+* Diary Page
+->	Breakfast – Dropdown
+. Current values displayed in database is ( Eggs, Sambhar, Chapatti, Eggs, Mutter paneer, Rice, Paratha, Dosa, Gulabjamun,    Curd, Mix veg, Mix veg, Milk, Apple, Bread, Popcorn, Moong Dal, Arhar dal, Lassi, Pav bhaji, Momos, Vada pav, Idli,    Uttapam, Burger, French fries, Spring roll, Noodles, Fish, Chicken Tikka, Butter chicken, Sprouts, Chole, Rajma, Ladoo,    Barfi, Pizza, Pasta, Pani puri, Coca cola, Biscuits, Palak paneer, Nutri, Salad, Tea, Coffee, Ice Cream, Cheese sandwich,    Kurkure, Lays, Patties, Juice, Chocolate).
+->	Add-  Button – This would add the above item that is selected
+
+->	Lunch – Dropdown
+. Current values displayed in database is (Eggs, Sambhar, Chapatti, Eggs, Mutter paneer, Rice, Paratha, Dosa, Gulabjamun,    Curd, Mix veg, Mix veg, Milk, Apple, Bread, Popcorn, Moong Dal, Arhar dal, Lassi, Pav bhaji, Momos, Vada pav, Idli,    Uttapam, Burger, French fries, Spring roll, Noodles, Fish, Chicken Tikka, Butter chicken, Sprouts, Chole, Rajma, Ladoo,    Barfi, Pizza, Pasta, Pani puri, Coca cola, Biscuits, Palak paneer, Nutri, Salad, Tea, Coffee, Ice Cream, Cheese sandwich,    Kurkure, Lays, Patties, Juice, Chocolate)
+->	Add-  Button – This would add the above item that is selected
+
+->	Dinner– Dropdown
+. Current values displayed in database is (Eggs, Sambhar, Chapatti, Eggs, Mutter paneer, Rice, Paratha, Dosa, Gulabjamun,    Curd, Mix veg, Mix veg, Milk, Apple, Bread, Popcorn, Moong Dal, Arhar dal, Lassi, Pav bhaji, Momos, Vada pav, Idli,    Uttapam, Burger, French fries, Spring roll, Noodles, Fish, Chicken Tikka, Butter chicken, Sprouts, Chole, Rajma, Ladoo,    Barfi, Pizza, Pasta, Pani puri, Coca cola, Biscuits, Palak paneer, Nutri, Salad, Tea, Coffee, Ice Cream, Cheese sandwich,    Kurkure, Lays, Patties, Juice, Chocolate)
+->	Add-  Button – This would add the above item that is selected
+
+->	Snacks – Dropdown
+. Current values displayed in database is (Eggs, Sambhar, Chapatti, Eggs, Mutter paneer, Rice, Paratha, Dosa, Gulabjamun,    Curd, Mix veg, Mix veg, Milk, Apple, Bread, Popcorn, Moong Dal, Arhar dal, Lassi, Pav bhaji, Momos, Vada pav, Idli,    Uttapam, Burger, French fries, Spring roll, Noodles, Fish, Chicken Tikka, Butter chicken, Sprouts, Chole, Rajma, Ladoo,    Barfi, Pizza, Pasta, Pani puri, Coca cola, Biscuits, Palak paneer, Nutri, Salad, Tea, Coffee, Ice Cream, Cheese sandwich,    Kurkure, Lays, Patties, Juice, Chocolate)
+->	Add-  Button – This would add the above item that is selected
+-----------------------------------------------------------------------------------------------------------------------------
+* Exercise Page
+->	Chest – Button – This would lead you to the following:
+     . Beginner, Intermediate, Advance – Buttons – This would take you the respective workouts.
+->	Back   – Button - This would lead you to the following:
+     . Beginner, Intermediate, Advance – Buttons This would take you the respective workouts.
+->	Abs – Button – This would lead you to the following:
+     . Beginner, Intermediate, Advance – Buttons This would take you the respective workouts.
+->	Arms – Button – This would lead you to the following:
+     . Beginner, Intermediate, Advance – Buttons This would take you the respective workouts.
+->	Legs – Button – This would lead you to the following:
+     . Beginner, Intermediate, Advance – Buttons This would take you the respective workouts.
+-----------------------------------------------------------------------------------------------------------------------------
+*  Medical checkup Page
+->	Chooses -   Radio Button (I have a medical problem, I don’t have  a medical problem).
+->	What are you suffering from? – Check box: (Common Cold, Headache, External Injury, Muscle Ache, Indigestion, Cough,          COVID) 
+->	How Long Have you been Suffering? – Check box (Less than 7 days or More than 7 days).
+->	Submit – Button-  The remedies for the above selected medical problem would be displayed based on the duration you          have selected.
+-----------------------------------------------------------------------------------------------------------------------------
+* Recipes
+->	Gain Weight – Dropdown 
+. The current values in database are (Yogurt and fruit, Egg White Frittata, Smoked Salmon, High Protein French, Protein    Chicken and Waffles, Chocolate Peanut Butter, Pesto Egg Sandwich Pesto Egg Sandwich, Mix milk with a starter, Breakfast       Casserole.)
+. The recipe for the selected item would be displayed
+
+->	Lose Weight – Dropdown 
+. The current values in database are (How do you cook leafy greens, how is salmon prepared, how do you make cruciferous    vegetables, how do you make lean beef, how do you boil potatoes step by step, how do you cook beans and legumes, how do    you eat canned tuna)
+. The recipe for the selected item would be displayed
+
+->	Shakes – Dropdown
+. The current values in database are (Chocolate banana nut shake, Vanilla berry shake, Chocolate hazelnut shake, Caramel    apple shake, Vanilla blueberry shake, Preparation of Carrot Soup, Preparation of Corn Soup, Preparation of Creamy Cucumber    Soup.)
+. The recipe for the selected item would be displayed
+-----------------------------------------------------------------------------------------------------------------------------
+* About Us 
+->	Contact Kunal: Button – Kunal’s contact info would be displayed.
+->	Contact Gursimar: Button – Gursimar’s contact info should be displayed.
+->	Contact Prashant: Button – Prashant’s contact info would be displayed.
+->	Facebook Logo: Button – My Fitness Amigo’s Facebook page would be displayed.
+->	Instagram Logo: Button – My Fitness Amigo’s Instagram page would be displayed.
+->	Twitter Logo Button – My Fitness Amigo’s Twitter Page would be displayed.
+-----------------------------------------------------------------------------------------------------------------------------
+* Logout Page
+->	Please Rate us (1 to 10) - Text Box (Value should be between 1 to 10)
+->	Please give a Comment- Text Box
+->	Are you sure you want to Logout:
+. Yes – Button- The page would take you to Google’s home page.
+. No-  Button- The page would take you back to My Fitness Amigo’s Home Page.
+
+Validation:	If the data is invalid, appropriate Error Message will be displayed in the Error Page
+
+
