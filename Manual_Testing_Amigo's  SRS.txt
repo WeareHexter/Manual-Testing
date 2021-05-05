@@ -35,7 +35,7 @@ R_02 (fields or features) Fields: TS_04
 ->	Weight – Text field
 ->	Gender – Radio Button (Male, Female or Others)
 ->	What goal you want to pursue? -  Check box (Maintain Weight, Gain Weigh, Lose Weight)
-->	What is your current level of activity? –  Check box (Sedentary, Lightly Active, Moderately Active, Active,                     Very Active)
+->	What is your current level of activity? –  Check box (Sedentary, Lightly Active, Moderately Active, Active,Very Active)
 ->	Submit – Button: Take you to the Diary Page
 -----------------------------------------------------------------------------------------------------------------------------
 * Diary Page
@@ -69,21 +69,21 @@ R_02 (fields or features) Fields: TS_04
 -----------------------------------------------------------------------------------------------------------------------------
 *  Medical checkup Page
 ->	Chooses -   Radio Button (I have a medical problem, I don’t have  a medical problem).
-->	What are you suffering from? – Check box: (Common Cold, Headache, External Injury, Muscle Ache, Indigestion, Cough,          COVID) 
+->	What are you suffering from? – Check box: (Common Cold, Headache, External Injury, Muscle Ache, Indigestion, Cough,COVID) 
 ->	How Long Have you been Suffering? – Check box (Less than 7 days or More than 7 days).
-->	Submit – Button-  The remedies for the above selected medical problem would be displayed based on the duration you          have selected.
+->	Submit – Button-  The remedies for the above selected medical problem would be displayed based on the duration you have selected.
 -----------------------------------------------------------------------------------------------------------------------------
 * Recipes
 ->	Gain Weight – Dropdown 
-. The current values in database are (Yogurt and fruit, Egg White Frittata, Smoked Salmon, High Protein French, Protein    Chicken and Waffles, Chocolate Peanut Butter, Pesto Egg Sandwich Pesto Egg Sandwich, Mix milk with a starter, Breakfast       Casserole.)
+. The current values in database are (Yogurt and fruit, Egg White Frittata, Smoked Salmon, High Protein French, Protein Chicken and Waffles, Chocolate Peanut Butter, Pesto Egg Sandwich Pesto Egg Sandwich, Mix milk with a starter, Breakfast Casserole.)
 . The recipe for the selected item would be displayed
 
 ->	Lose Weight – Dropdown 
-. The current values in database are (How do you cook leafy greens, how is salmon prepared, how do you make cruciferous    vegetables, how do you make lean beef, how do you boil potatoes step by step, how do you cook beans and legumes, how do    you eat canned tuna)
+. The current values in database are (How do you cook leafy greens, how is salmon prepared, how do you make cruciferous vegetables, how do you make lean beef, how do you boil potatoes step by step, how do you cook beans and legumes, how do you eat canned tuna)
 . The recipe for the selected item would be displayed
 
 ->	Shakes – Dropdown
-. The current values in database are (Chocolate banana nut shake, Vanilla berry shake, Chocolate hazelnut shake, Caramel    apple shake, Vanilla blueberry shake, Preparation of Carrot Soup, Preparation of Corn Soup, Preparation of Creamy Cucumber    Soup.)
+. The current values in database are (Chocolate banana nut shake, Vanilla berry shake, Chocolate hazelnut shake, Caramel apple shake, Vanilla blueberry shake, Preparation of Carrot Soup, Preparation of Corn Soup, Preparation of Creamy Cucumber Soup.)
 . The recipe for the selected item would be displayed
 -----------------------------------------------------------------------------------------------------------------------------
 * About Us 
